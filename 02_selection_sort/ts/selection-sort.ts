@@ -1,4 +1,4 @@
-function findSmallestIndex<T>(arr: T[]) {
+function findSmallestIndex<T>(arr: T[]): number {
   let smallestIndex = 0
   let smallestElement = arr[smallestIndex]
 
@@ -26,18 +26,25 @@ function selectionSort<T>(arr: T[]): T[] {
 
 console.log(selectionSort([1, 4, 1, 3, 5, 3, 55]))
 
-// function recursiveSelectionSort<T>(arr: T[]) {
-//   function rec(array, acc) {
-//     if (!array.length) return acc
+function recursiveSelectionSort<T>(arr: T[]): T[] {
+  if (!arr.length) return []
+  let smallestElement = arr.splice(findSmallestIndex(arr), 1)
+  return [...smallestElement, ...recursiveSelectionSort(arr)]
+}
 
-//     let copy = array.slice()
-//     let smallest = copy.splice(findSmallestIndex(copy), 1)[0]
+console.log(recursiveSelectionSort([1, 4, 1, 3, 5, 3, 55]))
 
-//     console.log({ copy, smallest, acc })
-//     rec(copy, [...acc, smallest])
-//   }
+function tailRecursiveSelectionSort<T>(arr: T[]) {
+  function rec(array: T[], acc: T[]): T[] {
+    if (!array.length) return acc
 
-//   return rec(arr, [])
-// }
+    let copy = array.slice()
+    let smallestElement = copy.splice(findSmallestIndex(copy), 1)[0]
 
-// console.log(recursiveSelectionSort([2, 1, 4, 87, 4, 21]))
+    return rec(copy, [...acc, smallestElement])
+  }
+
+  return rec(arr, [])
+}
+
+console.log(tailRecursiveSelectionSort([1, 4, 1, 3, 5, 3, 55]))
