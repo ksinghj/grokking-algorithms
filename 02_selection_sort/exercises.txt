@@ -1,0 +1,8 @@
+2.1) Use a list, lots of inserts and few reads. Insert time complexity is O(1) and read is O(n).
+2.2) Add first and remove last element methods are going to be used a lot, so use a list.
+2.3) Use an array, random access of O(1) time complexity.
+2.4) Downsides of using array for this would be the array might need to change memory location
+often as the list of usernames grows.
+2.5) Data structure described is a chained hash.
+This would be slower than an array for reading/searching but faster than a linked list.
+Hash is faster than array for adding/removing but slower than a normal linked list.
