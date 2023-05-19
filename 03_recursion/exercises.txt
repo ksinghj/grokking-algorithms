@@ -1,0 +1,4 @@
+3.1) The current call stack: greet2() is being called from inside a function greet()
+3.2) Stack overflow! The computer will realise that the stack is taking up too much memory and end the process.
+
+Please see `02_selection_sort/ts/selection-sort.ts` for recursive examples.
