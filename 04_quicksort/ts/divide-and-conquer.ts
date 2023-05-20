@@ -37,16 +37,17 @@ function getHighestVal(arr: number[]): number | null {
   return highest
 }
 
+console.log(getHighestVal([1, 2, 3, 4, 4, 7, 4]))
+
 function getHighestValRecursive(arr: number[]): number | null {
   if (!arr.length) return 0
   if (arr.length === 1) return arr[0]
 
   const copy = arr.slice()
-  const firstRemoved = copy.shift()
-  return arr[0] < getHighestVal(copy) ? getHighestVal(copy) : arr[0]
+  const first = copy.shift()
+  return first < getHighestVal(copy) ? getHighestVal(copy) : first
 }
 
-console.log(getHighestVal([1, 2, 3, 4, 4, 7, 4]))
 console.log(getHighestValRecursive([1, 2, 3, 4, 4, 7, 4]))
 
 // 4.4
