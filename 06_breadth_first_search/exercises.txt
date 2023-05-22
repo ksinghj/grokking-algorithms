@@ -1,0 +1,11 @@
+6.1) Vague question. Top most path left to right is the fastest solution.
+6.2) cab > cat > bat
+6.3) A is invalid, B is valid, C is invalid.
+6.4) 1. wake up
+     2. exercise
+     3. shower
+     4. get dressed
+     5. brush teeth
+     6. eat breakfast
+     7. pack lunch
+6.5) A is a tree, B is not a tree, C is a tree.
