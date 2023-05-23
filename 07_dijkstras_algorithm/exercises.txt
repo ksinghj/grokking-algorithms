@@ -1,4 +1,5 @@
 7.1) He hasn't assigned a letter to the nodes, so i'll use the edge values.
-    a) 5, 2, 1
-    b) 10, 20, 30
-    c) 2, 2 (top)
+    ✅ a) 5, 2, 1
+    ✅ b) 10, 20, 30
+    ❌ c) 2, 2 (top)
+    No shortest path possible with Dijkstra's as there is a negative edge. However, 2, 2 would be the shortest.

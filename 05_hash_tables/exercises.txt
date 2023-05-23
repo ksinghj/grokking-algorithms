@@ -2,11 +2,11 @@ With this knowledge of algorithms, it is useful to structure our data in a way t
 best to work with algorithms, if we can. For example sorted arrays would allow us to perform
 binary search operations and save lots of time with large data sets.
 
-5.1) Consistent, but not useful!
-5.2) Not consistent.
-5.3) Not consistent.
-5.4) Consistent.
+✅ 5.1) Consistent, but not useful!
+✅ 5.2) Not consistent.
+✅ 5.3) Not consistent.
+✅ 5.4) Consistent.
 
-5.5) C would actually be useful here, as would D of course (it's a proper hash function).
-5.6) B would work here, because the only variation is the size of the string. D also.
-5.7) D here would work well of course, but C as well?.. As the titles all start with different letters.
+✅ 5.5) C would actually be useful here, as would D of course (it's a proper hash function).
+✅ 5.6) B would work here, because the only variation is the size of the string. D also.
+✅ 5.7) D here would work well of course, but C as well?.. As the titles all start with different letters.

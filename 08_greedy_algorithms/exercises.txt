@@ -1,0 +1,13 @@
+✅ 8.1) Pick the largest box that will fit, then repeat.
+✅ 8.2) Pick the destination with the largest point value, subtract it from total time you have, repeat.
+
+Not sure if they are all *not greedy* because they provide an exact answer, but he defined
+greedy algorithms by using the locally optimal solution at each step.
+✅ 8.3) Quicksort: not greedy as it's just the next step every time no matter what.
+❌ 8.4) BFS: greedy because we prioritise nearest neighbours in the queue.
+    Not greedy!
+
+✅ 8.5) Dijkstra's: greedy because we choose the lowest cost at each step.
+✅ 8.6) Yes, this is the travelling salesman problem.
+✅ 8.7) Yes, this is a set-covering problem.
+✅ 8.8) No, this could be solved easily with D&C.
