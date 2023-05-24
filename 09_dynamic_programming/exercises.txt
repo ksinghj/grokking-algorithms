@@ -1,0 +1,6 @@
+9.1) No, because with 4lbs we have the max value already.
+
+Dynamic programming only works when every subproblem is discrete.
+
+9.2) Water + Book + Food + Camera = 24 (and all space filled).
+9.3) see image
