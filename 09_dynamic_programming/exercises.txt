@@ -1,6 +1,9 @@
-9.1) No, because with 4lbs we have the max value already.
+❌ 9.1) No, because with 4lbs we have the max value already.
+✅ Yes, you could have stole the MP3 player as you still had room!
 
 Dynamic programming only works when every subproblem is discrete.
 
-9.2) Water + Book + Food + Camera = 24 (and all space filled).
-9.3) see image
+❌ 9.2) Water + Book + Food + Camera = 24 (and all space filled).
+✅ Don't have room to also take the book, Water + Food + Camera = 6lbs.
+
+✅ 9.3) see image

@@ -1,0 +1,12 @@
+✅❌ 10.1) Multiply Pinky's ratings by 1.5 or multiply Yogi's ratings by 0.5 -
+    results in similar numbers.
+✅ I guess I kind of got this one right, I just didn't call it `normalisation`.
+
+✅ 10.2) Multiply Influencer's ratings by X, where X is the weight of their rating over normal users.
+
+Classification - Categorisation into a group.
+Regression - predicting a response.
+
+✅ 10.3) Definitely too low! I imagine they would take advantage of such a large dataset and use 
+    nearest 10,000 neighbours at least!
+✅ Good rule of thumb is for N users, use sqrt(N) neighbours
